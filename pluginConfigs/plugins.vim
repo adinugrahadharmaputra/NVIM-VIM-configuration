@@ -14,4 +14,7 @@ call plug#begin('~/.config/nvim/plugged')
 	"Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 	Plug 'preservim/nerdcommenter' "Easy way to comment line
 	Plug 'ryanoasis/vim-devicons' "Devicons support for nerdtree file icon
+  Plug 'mxw/vim-jsx' " React highlighter
+  Plug 'pangloss/vim-javascript' " Js highlighter
+  "Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Treesitter for highlighting and use the interface for tree-sitter
 call plug#end()

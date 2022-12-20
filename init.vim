@@ -1,6 +1,6 @@
 source $HOME/.config/nvim/configs/keyMapConfig.vim
 source $HOME/.config/nvim/configs/airlineConfig.vim
-source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/pluginConfigs/plugins.vim
 
 " Font setting
 set encoding=UTF-8
@@ -23,9 +23,6 @@ set relativenumber
 " set autoread when a file is changed from the outside
 set autoread 
 au FocusGained,BufEnter * checktime
-
-"NERDTree
-"TagbarToggle
 
 set hidden
 set nowrap
@@ -53,5 +50,4 @@ set wildmode=list:longest " Make wildmenu behave like similar to Bash completion
 
 " Mouse setting
 "set mouse=a "activate mouse
-
 
