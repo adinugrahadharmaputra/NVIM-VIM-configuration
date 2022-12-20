@@ -20,9 +20,6 @@ set novisualbell
 "set number as relative
 set relativenumber
 
-"set auto indent
-set autoindent
-
 " set autoread when a file is changed from the outside
 set autoread 
 au FocusGained,BufEnter * checktime
@@ -32,10 +29,14 @@ au FocusGained,BufEnter * checktime
 
 set hidden
 set nowrap
-set tabstop=4
-set shiftwidth=4
+
+"set indent
+set autoindent " Autoindentation
+set tabstop=2 " Tab size
+set expandtab " Tab is using spaces
+set shiftwidth=2
 set smarttab
-set softtabstop=4
+set softtabstop=2
 
 "search setup
 set ignorecase
