@@ -1,6 +1,6 @@
-source configs/keyMapConfig.vim
-source configs/airlineConfig.vim
-source plugins.vim
+source $HOME/.config/nvim/configs/keyMapConfig.vim
+source $HOME/.config/nvim/configs/airlineConfig.vim
+source $HOME/.config/nvim/plugins.vim
 
 " Font setting
 set encoding=UTF-8
