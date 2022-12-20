@@ -1,5 +1,5 @@
-source keyMap.vim
-source airlineConfig.vim
+source configs/keyMapConfig.vim
+source configs/airlineConfig.vim
 source plugins.vim
 
 " Font setting
