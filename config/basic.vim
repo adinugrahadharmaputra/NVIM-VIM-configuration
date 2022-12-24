@@ -38,11 +38,21 @@ set hlsearch "highlight result
 set incsearch "makes search act like search in modern browsers
 set magic "turn magic on for regular expression
 
-" Auto completion menu 
+" Wild menu setup 
 set wildmenu " Enable auto completion menu after pressing TAB.
 set wildmode=list:longest " Make wildmenu behave like similar to Bash completion.
 " There are certain files that we would never want to edit with Vim.
 "set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx " Wildmenu will ignore files with these extensions.
+
+" OmniCompletion
+"set omnifunc=syntaxcomplete#Complete
+"autocmd FileType python set omnifunc=pythoncomplete#Complete
+"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+"autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+"autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+"autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+"autocmd FileType html,hbs,handlebars,php setlocal omnifunc=htmlcomplete#CompleteTags
 
 " Mouse setting
 "set mouse=a "activate mouse
