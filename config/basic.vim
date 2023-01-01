@@ -9,11 +9,11 @@ set cursorcolumn " Highlight cursor line underneath the cursor vertically.
 
 set number " set number in every line
 
-"no annoying error
+" No annoying error
 set noerrorbells
 set novisualbell
 
-"set number as relative
+" Set number as relative
 set relativenumber
 
 " set autoread when a file is changed from the outside
@@ -23,7 +23,7 @@ au FocusGained,BufEnter * checktime
 set hidden
 set nowrap
 
-"set indent
+" Set indent
 set autoindent " Autoindentation
 set tabstop=2 " Tab size
 set expandtab " Tab is using spaces
@@ -31,7 +31,7 @@ set shiftwidth=2
 set smarttab
 set softtabstop=2
 
-"search setup
+" Search setup
 set ignorecase
 set smartcase  
 set hlsearch "highlight result
@@ -45,15 +45,17 @@ set wildmode=list:longest " Make wildmenu behave like similar to Bash completion
 "set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx " Wildmenu will ignore files with these extensions.
 
 " OmniCompletion
-"set omnifunc=syntaxcomplete#Complete
-"autocmd FileType python set omnifunc=pythoncomplete#Complete
-"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-"autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-"autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
-"autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+" set omnifunc=syntaxcomplete#Complete
+" autocmd FileType python set omnifunc=pythoncomplete#Complete
+" autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+" autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+" autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+" autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+" autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 "autocmd FileType html,hbs,handlebars,php setlocal omnifunc=htmlcomplete#CompleteTags
 
 " Mouse setting
-"set mouse=a "activate mouse
+" set mouse=a "activate mouse
 
+" Copy to clipboard
+set clipboard+=unnamedplus
