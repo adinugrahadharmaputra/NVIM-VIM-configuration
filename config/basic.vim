@@ -5,7 +5,7 @@ set guifont=DroidSansMono\ Nerd\ Font\ 11
 syntax on "syntax highlight
 
 set cursorline " Highlight cursor line underneath the cursor horizontally.
-set cursorcolumn " Highlight cursor line underneath the cursor vertically.
+" set cursorcolumn " Highlight cursor line underneath the cursor vertically.
 
 set number " set number in every line
 
@@ -59,3 +59,10 @@ set wildmode=list:longest " Make wildmenu behave like similar to Bash completion
 
 " Copy to clipboard
 set clipboard+=unnamedplus
+
+" No swap files
+set noswapfile
+
+" Crusor behaviour
+set whichwrap+=>,l
+set whichwrap+=<,h
