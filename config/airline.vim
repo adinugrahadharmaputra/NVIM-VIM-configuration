@@ -1,7 +1,7 @@
 """""""""""""""""""""""""""""
 " => Airline Theme setting
 """""""""""""""""""""""""""""
-let g:airline_theme='simple'
+let g:airline_theme='deus'
 
 """""""""""""""""""""""""""""
 " Buffer and Tabs setting

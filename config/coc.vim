@@ -171,6 +171,7 @@ let g:coc_global_extensions = [
       \'coc-explorer',
       \'coc-flutter', 
       \'coc-json', 
+      \'coc-jest',
       \'coc-git',
       \'coc-prettier',
       \'coc-vimlsp',
