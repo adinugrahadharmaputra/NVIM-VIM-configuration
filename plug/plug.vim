@@ -4,7 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
 	Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 	Plug 'vim-airline/vim-airline-themes' " Theme for vim-airline
-  Plug 'dracula/vim', {'as' : 'dracula'}
+  Plug 'dracula/vim', {'as' : 'dracula'} " Dracula theme
 	" Plug 'https://github.com/lifepillar/pgsql.vim' " PSQL Pluging needs :SQLSetType pgsql.vim
 	" Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 	" Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
@@ -18,4 +18,6 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'mxw/vim-jsx' " React highlighter
   Plug 'pangloss/vim-javascript' " Js highlighter
   " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Treesitter for highlighting and use the interface for tree-sitter
+  Plug 'nvim-lua/plenary.nvim' " Lua dependency for {diffview.vim}
+  Plug 'sindrets/diffview.nvim' " Diff mode for git to see modified file in any git rev
 call plug#end()
