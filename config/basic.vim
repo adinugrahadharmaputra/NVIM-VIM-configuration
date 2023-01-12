@@ -55,7 +55,8 @@ set wildmode=list:longest " Make wildmenu behave like similar to Bash completion
 "autocmd FileType html,hbs,handlebars,php setlocal omnifunc=htmlcomplete#CompleteTags
 
 " Mouse setting
-" set mouse=a "activate mouse
+set mouse=a "activate mouse
+" set mousemodel=  "prevent popup rightclick
 
 " Copy to clipboard
 set clipboard+=unnamedplus
