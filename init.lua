@@ -1,0 +1,6 @@
+vim.cmd('source $HOME/.config/nvim/config/airline.vim')
+vim.cmd('source $HOME/.config/nvim/config/coc.vim')
+vim.cmd('source $HOME/.config/nvim/config/keymap.vim')
+vim.cmd('source $HOME/.config/nvim/config/nerdTree.vim')
+vim.cmd('source $HOME/.config/nvim/plug/plug.vim')
+vim.cmd('source $HOME/.config/nvim/config/basic.vim')
